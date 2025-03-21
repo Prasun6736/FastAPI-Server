@@ -14,4 +14,4 @@ async def db_init():
         from src.books.models import Book 
         await conn.run_sync(SQLModel.metadata.create_all)
         
-
+##db columns from book model

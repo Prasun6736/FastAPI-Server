@@ -8,3 +8,4 @@ class Settings(BaseSettings):
     )
 
 Config=Settings() 
+## This is a object for settings class
